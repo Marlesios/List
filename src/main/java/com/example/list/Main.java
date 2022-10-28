@@ -24,7 +24,8 @@ public class Main {
                 }
                 case "3" -> {
                     System.out.println("Введите номер задачи которую хотите удалить");
-                    list.remove(scan.nextInt() - 1);
+                    int index = Integer.parseInt(scan.nextLine());
+                    list.remove(index - 1);
                 }
 
             }
